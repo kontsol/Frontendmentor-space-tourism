@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="home.css" />
+    <link rel="stylesheet" href="destination-mars.css" />
+    <link rel="stylesheet" href="destination-moon.css" />
+    <link rel="stylesheet" href="crew.css" />
+    <link rel="stylesheet" href="technology.css" />
+    <link rel="stylesheet" href="media.css" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <title>Space tourism</title>
+  </head>
+  <body>
+    <!-- HOME BEGIN -->
+    <main class="main">
+      <section class="home" id="home">
+        <nav>
+          <div class="logo-and-border">
+            <div class="logo">
+              <svg
+                id="logo"
+                xmlns="http://www.w3.org/2000/svg"
+                width="48"
+                height="48"
+              >
+                <g fill="none" fill-rule="evenodd">
+                  <circle cx="24" cy="24" r="24" fill="#FFF" />
+                  <path
+                    fill="#0B0D17"
+                    d="M24 0c0 16-8 24-24 24 15.718.114 23.718 8.114 24 24 0-16 8-24 24-24-16 0-24-8-24-24z"
+                  />
+                </g>
+              </svg>
+              <ion-icon id="menu-button" name="menu-outline"></ion-icon>
+            </div>
+            <div class="bottom-line"></div>
+          </div>
+
+          <div class="menu">
+            <ul class="header_menu">
+              <li
+                class="menu-active-home header_menu_li header_home_li"
+                id="home"
+              >
+                <a href="#home" class="menu-links"><strong>00</strong>Home</a>
+              </li>
+              <li class="header_menu_li header_destination_li">
+                <a href="#destination" class="menu-links"
+                  ><strong>01</strong>Destination</a
+                >
+              </li>
+              <li class="header_menu_li header_crew_li">
+                <a href="#crew" class="menu-links"><strong>02</strong>Crew</a>
+              </li>
+              <li class="header_menu_li header_tech_li">
+                <a href="#technology" class="menu-links"
+                  ><strong>03</strong>Technology</a
+                >
+              </li>
+              <ion-icon id="close-button" name="close-outline"></ion-icon>
+            </ul>
+          </div>
+        </nav>
+
+        <div class="home-main-content">
+          <div class="text-content">
+            <h3>SO YOU WANT TO TRAVEL TO</h3>
+            <h1>SPACE</h1>
+            <p>
+              Let’s face it; if you want to go to space, you might as well
+              genuinely go to outer space and not hover kind of on the edge of
+              it. Well sit back, and relax because we’ll give you a truly out of
+              this world experience!
+            </p>
+          </div>
+          <div class="circle-content">
+            <div class="circle-content-label"><label>Explore</label></div>
+          </div>
+        </div>
+      </section>
+      <!-- HOME END -->
+
+      <!-- DESTINATION BEGIN -->
+      <section class="destination" id="destination">
+        <div class="parent-div-destination">
+          <!--  MOON BEGIN-->
+          <div class="moon destination-container" id="moon">
+            <div class="destination-header-image">
+              <strong>01</strong>
+              <h1 id="pick-your-destination">PICK YOUR DESTINATION</h1>
+              <img
+                id="destination-background"
+                src="assets/destination/image-moon.png"
+                alt="Moon"
+              />
+            </div>
+            <div class="destination-content">
+              <nav class="nav-menu">
+                <ul>
+                  <li class="menu-active-destination" id="moon">MOON</li>
+                  <li id="mars">MARS</li>
+                  <li id="europa">EUROPA</li>
+                  <li id="titan">TITAN</li>
+                </ul>
+              </nav>
+              <div class="destination-text-content">
+                <h1>MOON</h1>
+                <p>
+                  See our planet as you’ve never seen it before. A perfect
+                  relaxing trip away to help regain perspective and come back
+                  refreshed. While you’re there, take in some history by
+                  visiting the Luna 2 and Apollo 11 landing sites.
+                </p>
+              </div>
+              <div class="bottom-text-content">
+                <div>
+                  <p>Avg. distance</p>
+                  <h1>225 mil. km</h1>
+                </div>
+                <div id="block2">
+                  <p>Est. travel time</p>
+                  <h1>9 months</h1>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- MOON END -->
+
+          <!-- MARS BEGIN -->
+          <div class="mars destination-container hidden" id="mars">
+            <div class="destination-header-image">
+              <strong>01</strong>
+              <h1>PICK YOUR DESTINATION</h1>
+              <img src="assets/destination/image-mars.png" alt="Mars" />
+            </div>
+            <div class="destination-content">
+              <nav class="nav-menu">
+                <ul>
+                  <li id="moon">MOON</li>
+                  <li class="mars menu-active-destination" id="mars">MARS</li>
+                  <li id="europa">EUROPA</li>
+                  <li id="titan">TITAN</li>
+                </ul>
+              </nav>
+              <div class="destination-text-content">
+                <h1>MARS</h1>
+                <p>
+                  Don’t forget to pack your hiking boots. You’ll need them to
+                  tackle Olympus Mons, the tallest planetary mountain in our
+                  solar system. It’s two and a half times the size of Everest!
+                </p>
+              </div>
+              <div class="bottom-text-content">
+                <div>
+                  <p>Avg. distance</p>
+                  <h1>225 mil. km</h1>
+                </div>
+                <div id="block2">
+                  <p>Est. travel time</p>
+                  <h1>9 months</h1>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- MARS END -->
+
+          <!-- EUROPA BEGIN -->
+          <div class="europa destination-container hidden">
+            <div class="destination-header-image">
+              <strong>01</strong>
+              <h1>PICK YOUR DESTINATION</h1>
+              <img src="assets/destination/image-europa.png" alt="Europa" />
+            </div>
+            <div class="destination-content">
+              <nav class="nav-menu">
+                <ul>
+                  <li id="moon">MOON</li>
+                  <li id="mars">MARS</li>
+                  <li class="menu-active-destination" id="europa">EUROPA</li>
+                  <li id="titan">TITAN</li>
+                </ul>
+              </nav>
+              <div class="destination-text-content">
+                <h1>EUROPA</h1>
+                <p>
+                  The smallest of the four Galilean moons orbiting Jupiter,
+                  Europa is a winter lover’s dream. With an icy surface, it’s
+                  perfect for a bit of ice skating, curling, hockey, or simple
+                  relaxation in your snug wintery cabin.
+                </p>
+              </div>
+              <div class="bottom-text-content">
+                <div id="block2">
+                  <p>Avg. distance</p>
+                  <h1>628 mil. km</h1>
+                </div>
+                <div>
+                  <p>Est. travel time</p>
+                  <h1>3 years</h1>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- EUROPA END -->
+
+          <!-- TITAN BEGIN -->
+          <div class="titan destination-container hidden">
+            <div class="destination-header-image">
+              <strong>01</strong>
+              <h1>PICK YOUR DESTINATION</h1>
+              <img src="assets/destination/image-titan.png" alt="Europa" />
+            </div>
+            <div class="destination-content">
+              <nav class="nav-menu">
+                <ul>
+                  <li id="moon">MOON</li>
+                  <li id="mars">MARS</li>
+                  <li id="europa">EUROPA</li>
+                  <li class="menu-active-destination" id="titan">TITAN</li>
+                </ul>
+              </nav>
+              <div class="destination-text-content">
+                <h1>TITAN</h1>
+                <p>
+                  The only moon known to have a dense atmosphere other than
+                  Earth, Titan is a home away from home (just a few hundred
+                  degrees colder!). As a bonus, you get striking views of the
+                  Rings of Saturn.
+                </p>
+              </div>
+              <div class="bottom-text-content">
+                <div id="block2">
+                  <p>Avg. distance</p>
+                  <h1>1.6 bil. km</h1>
+                </div>
+                <div>
+                  <p>Est. travel time</p>
+                  <h1>7 years</h1>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- TITAN END -->
+        </div>
+      </section>
+      <!-- DESTINATION END -->
+
+      <!-- CREW BEGIN -->
+      <section class="crew" id="crew">
+        <!-- 1 -->
+        <div class="commander crew-engineer">
+          <div class="crew-text-content">
+            <h1><strong>02</strong>Meet your crew</h1>
+            <h2>Commander</h2>
+            <h3>Douglas Hurley</h3>
+            <p>
+              Douglas Gerald Hurley is an American engineer, former Marine Corps
+              pilot and former NASA astronaut. He launched into space for the
+              third time as commander of Crew Dragon Demo-2.
+            </p>
+            <div class="crew-selected-buttons">
+              <a href="#commander" id="commander" class="btn crew-1"></a>
+              <a href="#flight" id="flight" class="btn"></a>
+              <a href="#pilot" id="pilot" class="btn"></a>
+              <a href="#specialist" id="specialist" class="btn"></a>
+            </div>
+          </div>
+          <div class="crew-image-content">
+            <img src="assets/crew/image-douglas-hurley.png" alt="Commander" />
+          </div>
+        </div>
+        <!-- 2 -->
+        <div class="flight crew-engineer hidden">
+          <div class="crew-text-content">
+            <h1><strong>02</strong>Meet your crew</h1>
+            <h2>Flight Engineer</h2>
+            <h3>Anousheh Ansari</h3>
+            <p>
+              Anousheh Ansari is an Iranian American engineer and co-founder of
+              Prodea Systems. Ansari was the fourth self-funded space tourist,
+              the first self-funded woman to fly to the ISS, and the first
+              Iranian in space.
+            </p>
+            <div class="crew-selected-buttons">
+              <a href="#commander" id="commander" class="btn"></a>
+              <a href="#flight" id="flight" class="btn crew-2"></a>
+              <a href="#pilot" id="pilot" class="btn"></a>
+              <a href="#specialist" id="specialist" class="btn"></a>
+            </div>
+          </div>
+          <div class="crew-image-content">
+            <img src="assets/crew/image-anousheh-ansari.png" alt="Commander" />
+          </div>
+        </div>
+
+        <!-- 3 -->
+        <div class="pilot crew-engineer hidden">
+          <div class="crew-text-content">
+            <h1><strong>02</strong>Meet your crew</h1>
+            <h2>Pilot</h2>
+            <h3>Victor Glover</h3>
+            <p>
+              Pilot on the first operational flight of the SpaceX Crew Dragon to
+              the International Space Station. Glover is a commander in the U.S.
+              Navy where he pilots an F/A-18.He was a crew member of Expedition
+              64, and served as a station systems flight engineer.
+            </p>
+            <div class="crew-selected-buttons">
+              <a href="#commander" id="commander" class="btn"></a>
+              <a href="#flight" id="flight" class="btn"></a>
+              <a href="#pilot" id="pilot" class="btn crew-3"></a>
+              <a href="#specialist" id="specialist" class="btn"></a>
+            </div>
+          </div>
+          <div class="crew-image-content">
+            <img src="assets/crew/image-victor-glover.png" alt="Commander" />
+          </div>
+        </div>
+        <!-- 4 -->
+        <div class="specialist crew-engineer hidden">
+          <div class="crew-text-content">
+            <h1><strong>02</strong>Meet your crew</h1>
+            <h2>Mission Specialist</h2>
+            <h3>Mark Shuttleworth</h3>
+            <p>
+              Mark Richard Shuttleworth is the founder and CEO of Canonical, the
+              company behind the Linux-based Ubuntu operating system.
+              Shuttleworth became the first South African to travel to space as
+              a space tourist.
+            </p>
+            <div class="crew-selected-buttons">
+              <a href="#commander" id="commander" class="btn"></a>
+              <a href="#flight" id="flight" class="btn"></a>
+              <a href="#pilot" id="pilot" class="btn"></a>
+              <a href="#specialist" id="specialist" class="btn crew-4"></a>
+            </div>
+          </div>
+          <div class="crew-image-content">
+            <img
+              id="commander-image"
+              src="assets/crew/image-mark-shuttleworth.png"
+              alt="Commander"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- CREW END -->
+
+      <!-- TECHNOLOGY BEGIN -->
+      <section class="technology" id="technology">
+        <div class="slider vehicle">
+          <div class="slide">
+            <div class="technology-content">
+              <div class="technology-header">
+                <span>03</span>
+                <h1>Space launch 101</h1>
+              </div>
+              <div class="selections-and-text">
+                <div class="selections">
+                  <a
+                    href="#vehicle"
+                    id="vehicle"
+                    class="selections-buttons active button1"
+                    >1</a
+                  >
+                  <a href="#spaceport" id="spaceport" class="selections-buttons"
+                    >2</a
+                  >
+                  <a
+                    href="#spacecapsule"
+                    id="spacecapsule"
+                    class="selections-buttons"
+                    >3</a
+                  >
+                </div>
+                <div class="technology-text">
+                  <h3>The terminology...</h3>
+                  <h1>Launch vehicle</h1>
+                  <p>
+                    A launch vehicle or carrier rocket is a rocket-propelled
+                    vehicle used to carry a payload from Earth's surface to
+                    space, usually to Earth orbit or beyond. Our WEB-X carrier
+                    rocket is the most powerful in operation. Standing 150
+                    metres tall, it's quite an awe-inspiring sight on the launch
+                    pad!
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="technology-image">
+              <img
+                src="assets/technology/image-launch-vehicle-portrait.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+        <div class="slider spaceport hidden">
+          <div class="slide">
+            <div class="technology-content">
+              <div class="technology-header">
+                <span>03</span>
+                <h1>Space launch 101</h1>
+              </div>
+              <div class="selections-and-text">
+                <div class="selections">
+                  <a
+                    href="#vehicle"
+                    id="vehicle"
+                    class="selections-buttons active"
+                    >1</a
+                  >
+                  <a
+                    href="#spaceport"
+                    id="spaceport"
+                    class="selections-buttons button2"
+                    >2</a
+                  >
+                  <a
+                    href="#spacecapsule"
+                    id="spacecapsule"
+                    class="selections-buttons"
+                    >3</a
+                  >
+                </div>
+                <div class="technology-text">
+                  <h3>The terminology...</h3>
+                  <h1>Spaceport</h1>
+                  <p>
+                    A spaceport or cosmodrome is a site for launching (or
+                    receiving) spacecraft, by analogy to the seaport for ships
+                    or airport for aircraft. Based in the famous Cape Canaveral,
+                    our spaceport is ideally situated to take advantage of the
+                    Earth’s rotation for launch.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="technology-image">
+              <img
+                src="assets/technology/image-spaceport-portrait.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+        <div class="slider spacecapsule hidden">
+          <div class="slide">
+            <div class="technology-content">
+              <div class="technology-header">
+                <span>03</span>
+                <h1>Space launch 101</h1>
+              </div>
+              <div class="selections-and-text">
+                <div class="selections">
+                  <a
+                    href="#vehicle"
+                    id="vehicle"
+                    class="selections-buttons active"
+                    >1</a
+                  >
+                  <a href="#spaceport" id="spaceport" class="selections-buttons"
+                    >2</a
+                  >
+                  <a
+                    href="#spacecapsule"
+                    id="spacecapsule"
+                    class="selections-buttons button3"
+                    >3</a
+                  >
+                </div>
+                <div class="technology-text">
+                  <h3>The terminology...</h3>
+                  <h1>Space capsule</h1>
+                  <p>
+                    A space capsule is an often-crewed spacecraft that uses a
+                    blunt-body reentry capsule to reenter the Earth's atmosphere
+                    without wings. Our capsule is where you'll spend your time
+                    during the flight. It includes a space gym, cinema, and
+                    plenty of other activities to keep you entertained.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="technology-image">
+              <img
+                src="assets/technology/image-space-capsule-portrait.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- TECHNOLOGY END -->
+    </main>
+    <div class="overlay hidden"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
